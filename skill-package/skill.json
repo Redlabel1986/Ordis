@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "name": "Ordis Cephalon",
+          "summary": "Ein beschaedigter Cephalon an Bord.",
+          "description": "Ein privater Sprachassistent mit der Persoenlichkeit eines beschaedigten Cephalon.",
+          "examplePhrases": [
+            "Alexa, oeffne Ordis Cephalon",
+            "Alexa, frage Ordis Cephalon nach dem Systemstatus",
+            "Alexa, bitte Ordis Cephalon um einen Witz"
+          ],
+          "keywords": ["cephalon", "assistent"]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "distributionCountries": ["DE"],
+      "testingInstructions": "Privater Skill. Bleibt im Entwicklungsmodus, wird nicht zur Zertifizierung eingereicht.",
+      "category": "NOVELTY"
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "de-DE": {}
+      }
+    }
+  }
+}

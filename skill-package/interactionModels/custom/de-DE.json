@@ -1,0 +1,77 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ordis cephalon",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "StatusIntent",
+          "slots": [],
+          "samples": [
+            "wie geht es dir",
+            "wie geht es dir denn",
+            "systemstatus",
+            "status",
+            "statusbericht",
+            "gib mir einen statusbericht",
+            "wie ist der zustand des schiffes",
+            "alles in ordnung",
+            "diagnose",
+            "führe eine diagnose durch",
+            "wie fühlst du dich"
+          ]
+        },
+        {
+          "name": "JokeIntent",
+          "slots": [],
+          "samples": [
+            "erzähl mir einen witz",
+            "einen witz bitte",
+            "mach einen witz",
+            "hast du einen witz",
+            "bring mich zum lachen",
+            "witz"
+          ]
+        },
+        {
+          "name": "ChatIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "sag mir {query}",
+            "erzähl mir von {query}",
+            "erkläre mir {query}",
+            "was ist mit {query}",
+            "frage {query}",
+            "ich möchte wissen {query}",
+            "was denkst du über {query}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

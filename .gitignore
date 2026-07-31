@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build-/Export-Artefakte
+*.zip
+
+# Lokale Secrets — falls der API-Key je in eine Datei wandert
+.env
+.env.*
+
+# ASK CLI lokale Zustände
+.ask/
+ask-resources.json
+
+# OS-Kram
+.DS_Store
+Thumbs.db
