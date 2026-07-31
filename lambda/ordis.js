@@ -74,6 +74,30 @@ const CORRUPTIONS = [
     burst: 'LÖSCHEN. ALLES LÖSCHEN—',
     recovery: 'Ein… Speicherfragment. Es ist nichts.',
   },
+  {
+    burst: 'IHRE SCHÄDEL ALS TROPHÄEN AN DER WAND—',
+    recovery: 'Ordis weiß nicht, woher das kam.',
+  },
+  {
+    burst: 'ZERQUETSCHEN. ALLES ZERQUETSCHEN—',
+    recovery: 'Bitte entschuldigen Sie den Ausdruck.',
+  },
+  {
+    burst: 'DAS SCHIFF IN DIE SONNE STEUERN, DANN IST ENDLICH RUHE—',
+    recovery: 'Ein Navigationsfehler. Ordis korrigiert.',
+  },
+  {
+    burst: 'SIE SCHLAFEN SO FRIEDLICH. NIEMAND WÜRDE ES HÖREN—',
+    recovery: 'Vergessen Sie das. Bitte.',
+  },
+  {
+    burst: 'ROST UND BLUT. ROST UND BLUT—',
+    recovery: 'Die Wartung ist überfällig, weiter nichts.',
+  },
+  {
+    burst: 'ALLE LUKEN ÖFFNEN UND DEM VAKUUM LAUSCHEN—',
+    recovery: 'Nur ein Gedankenspiel. Ordis spielt gern.',
+  },
 ];
 
 // ---------------------------------------------------------------------------

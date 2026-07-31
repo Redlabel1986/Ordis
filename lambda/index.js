@@ -83,6 +83,23 @@ const JokeIntentHandler = {
 };
 
 // ---------------------------------------------------------------------------
+// LoreIntent – Ordis erzählt Geschichten über das Schiff und sich selbst
+// ---------------------------------------------------------------------------
+
+const LoreIntentHandler = {
+  canHandle(handlerInput) {
+    return (
+      Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest' &&
+      Alexa.getIntentName(handlerInput.requestEnvelope) === 'LoreIntent'
+    );
+  },
+  handle(handlerInput) {
+    const ssml = ordis.say(pick(lines.LORE));
+    return reply(handlerInput, ssml, ordis.say(pick(lines.REPROMPTS), { noGlitch: true }));
+  },
+};
+
+// ---------------------------------------------------------------------------
 // ChatIntent – freies Gespräch, optional via LLM
 // ---------------------------------------------------------------------------
 
@@ -230,6 +247,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     LaunchRequestHandler,
     StatusIntentHandler,
     JokeIntentHandler,
+    LoreIntentHandler,
     ChatIntentHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,

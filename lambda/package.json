@@ -1,7 +1,7 @@
 {
   "name": "ordis-cephalon-skill",
   "version": "1.0.0",
-  "description": "Alexa Custom Skill mit der Persönlichkeit eines beschädigten Cephalon",
+  "description": "Alexa Custom Skill mit der Persoenlichkeit eines beschaedigten Cephalon",
   "main": "index.js",
   "private": true,
   "engines": {

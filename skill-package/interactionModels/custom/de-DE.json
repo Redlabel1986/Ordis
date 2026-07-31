@@ -37,7 +37,15 @@
             "alles in ordnung",
             "diagnose",
             "führe eine diagnose durch",
-            "wie fühlst du dich"
+            "wie fühlst du dich",
+            "hallo",
+            "hallo ordis",
+            "bist du da",
+            "bist du noch da",
+            "guten morgen",
+            "guten abend",
+            "wie läuft es",
+            "alles klar bei dir"
           ]
         },
         {
@@ -45,11 +53,38 @@
           "slots": [],
           "samples": [
             "erzähl mir einen witz",
+            "erzähle mir einen witz",
+            "erzähle einen witz",
             "einen witz bitte",
             "mach einen witz",
             "hast du einen witz",
             "bring mich zum lachen",
-            "witz"
+            "witz",
+            "noch einen witz",
+            "noch einen",
+            "kennst du einen witz",
+            "sag was lustiges",
+            "erzähl was lustiges"
+          ]
+        },
+        {
+          "name": "LoreIntent",
+          "slots": [],
+          "samples": [
+            "erzähl mir etwas",
+            "erzähl mir eine geschichte",
+            "erzähle mir eine geschichte",
+            "erzähl mir was über das schiff",
+            "erzähl mir etwas über das schiff",
+            "erzähl mir was über dich",
+            "erzähl mir etwas über dich",
+            "was gibt es neues",
+            "gibt es neuigkeiten",
+            "was machst du so",
+            "was gibt es zu berichten",
+            "bericht",
+            "erzähl was",
+            "was denkst du gerade"
           ]
         },
         {
